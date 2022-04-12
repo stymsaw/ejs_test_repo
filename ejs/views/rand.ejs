@@ -1,0 +1,11 @@
+<%- include ('partials/head') %> 
+  <body>
+    <%- include ('partials/navbar') %>
+    <h1>Your Random Number is : <%= rand %> </h1>
+    <% if(rand%2==0) { %>
+        <h2>this is a even number in india</h2>
+    <% } else { %>
+        <h2>this is an odd number in india</h2>
+        <% } %> 
+  </body>
+</html>
